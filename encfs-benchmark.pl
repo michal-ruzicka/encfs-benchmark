@@ -204,7 +204,7 @@ sub tabulate {
 
         my $percent = $ratio * 100;
 
-        printf( "%-15s | %6d %-5s | %6d %-5s | %2.2f %%\n",
+        printf( "%-15s | %6d %-5s | %6d %-5s | %6.2f %%\n",
             $test, $en, $unit, $pl, $unit, $percent );
     }
 }
